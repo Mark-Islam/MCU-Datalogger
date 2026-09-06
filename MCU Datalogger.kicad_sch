@@ -11,9 +11,9 @@
 		(company "N/A")
 	)
 	(lib_symbols
-		(symbol "2026-09-06_18-30-11:DS1337S+T&R"
+		(symbol "ATMEGA328P-AU:ATMEGA328P-AU"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -21,26 +21,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 25.4 10.16 0)
+				(at -10.1755 29.2546 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "DS1337S+T&R"
-				(at 25.4 7.62 0)
+			(property "Value" "ATMEGA328P-AU"
+				(at -10.1669 -31.7714 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "21-0041B_8_MXM"
+			(property "Footprint" "ATMEGA328P-AU:QFP80P900X900X120-32N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -48,23 +50,11 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "DS1337S+T&R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,17 +65,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DS1337S+T&R"
+			(property "Description" "AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 32KB (16K x 16) FLASH 32-TQFP (7x7)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,9 +74,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "21-0041B_8_MXM 21-0041B_8_MXM-M 21-0041B_8_MXM-L"
+			(property "MF" "Microchip"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,197 +86,728 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "DS1337S+T&R_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.20mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "TQFP-32 Microchip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "8271A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "ATMEGA328P-AU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=44280&manufacturer=Microchip&part_name=ATMEGA328P-AU&search_term=atmega328p-au"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Microchip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ATMEGA328P-AU_0_0"
+				(rectangle
+					(start -10.16 -27.94)
+					(end 10.16 27.94)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 43.18 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 43.18 -12.7) (xy 43.18 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "X1"
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "PD3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "X2"
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "PD4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "*INTA"
+				(pin power_in line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "GND"
+					(at 15.24 22.86 180)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 50.8 -7.62 180)
-					(length 7.62)
-					(name "SDA"
+				(pin power_in line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 50.8 -5.08 180)
-					(length 7.62)
-					(name "SCL"
+				(pin power_in line
+					(at 15.24 22.86 180)
+					(length 5.08)
+					(hide yes)
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 50.8 -2.54 180)
-					(length 7.62)
-					(name "SQW/*INTB"
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "PB6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "VCC"
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "PB7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "PD5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "PD6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "PD7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 17.78 0)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 15.24 0)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 25.4 180)
+					(length 5.08)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "ADC6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "ADC7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "PC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 5.08)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "PC4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "PC5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -20.32 0)
+					(length 5.08)
+					(name "PC6/~{RESET}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 5.08)
+					(name "PD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "PD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 5.08)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -303,9 +815,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2026-09-06_18-41-55:ATMEGA328P-AU"
+		(symbol "DS1337S_:DS1337S_"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -313,26 +825,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 58.42 10.16 0)
+				(at -12.7 16.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "ATMEGA328P-AU"
-				(at 58.42 7.62 0)
+			(property "Value" "DS1337S_"
+				(at -12.7 -19.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TQFP32_32A_MCH"
+			(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -340,23 +854,11 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "ATMEGA328P-AU"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -367,17 +869,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ATMEGA328P-AU"
+			(property "Description" "I²C Serial Real-Time Clock"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -386,9 +878,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "TQFP32_32A_MCH TQFP32_32A_MCH-M TQFP32_32A_MCH-L"
+			(property "MF" "Analog Devices"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -397,629 +890,245 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "ATMEGA328P-AU_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -43.18)
+			(property "Package" "SOIC-8 Maxim"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DS1337S+"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105732&manufacturer=Analog Devices&part_name=DS1337S+&search_term=ds1337s"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DS1337S__0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 15.24)
 					(stroke
-						(width 0.127)
+						(width 0.41)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -43.18) (xy 109.22 -43.18)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 109.22 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 109.22 -43.18) (xy 109.22 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 7.62)
-					(name "PD3(PCINT19/OC2B/INT1)"
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "X1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "PD4(PCINT20/XCK/T0)"
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "X2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "GND"
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "~{INTA}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "VCC"
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "GND"
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "SDA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "VCC"
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "SCL"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "PB6(PCINT6/XTAL1/TOSC1)"
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SQW/~INT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "PB7(PCINT7/XTAL2/TOSC2)"
+				(pin power_in line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "PD5(PCINT21/OC0B/T1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "PD6(PCINT22/OC0A/AIN0)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -25.4 0)
-					(length 7.62)
-					(name "PD7(PCINT23/AIN1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -27.94 0)
-					(length 7.62)
-					(name "PB0(PCINT0/CLKO/ICP1)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -30.48 0)
-					(length 7.62)
-					(name "PB1(PCINT1/OC1A)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -33.02 0)
-					(length 7.62)
-					(name "PB2(PCINT2/*SS/OC1B)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -35.56 0)
-					(length 7.62)
-					(name "PB3(PCINT3/OC2A/MOSI)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -38.1 0)
-					(length 7.62)
-					(name "PB4(PCINT4/MISO)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -38.1 180)
-					(length 7.62)
-					(name "PB5(SCK/PCINT5)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 116.84 -35.56 180)
-					(length 7.62)
-					(name "AVCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 116.84 -33.02 180)
-					(length 7.62)
-					(name "ADC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 116.84 -30.48 180)
-					(length 7.62)
-					(name "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 116.84 -27.94 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 116.84 -25.4 180)
-					(length 7.62)
-					(name "ADC7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -22.86 180)
-					(length 7.62)
-					(name "PC0(ADC0/PCINT8)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -20.32 180)
-					(length 7.62)
-					(name "PC1(ADC1/PCINT9)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -17.78 180)
-					(length 7.62)
-					(name "PC2(ADC2/PCINT10)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -15.24 180)
-					(length 7.62)
-					(name "PC3(ADC3/PCINT11)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -12.7 180)
-					(length 7.62)
-					(name "PC4(ADC4/SDA/PCINT12)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -10.16 180)
-					(length 7.62)
-					(name "PC5(ADC5/SCL/PCINT13)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -7.62 180)
-					(length 7.62)
-					(name "PC6(*RESET/PCINT14)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -5.08 180)
-					(length 7.62)
-					(name "PD0(RXD/PCINT16)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 -2.54 180)
-					(length 7.62)
-					(name "PD1(TXD/PCINT17)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 116.84 0 180)
-					(length 7.62)
-					(name "PD2(INT0/PCINT18)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2501,108 +2610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-09-06_18-30-11:DS1337S+T&R")
-		(at 19.05 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0276af69-df67-4ca9-b66d-c423998d7f4f")
-		(property "Reference" "U3"
-			(at 44.45 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "DS1337S+T&R"
-			(at 44.45 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "21-0041B_8_MXM"
-			(at 19.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "DS1337S+T&R"
-			(at 19.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "df07dded-40e1-4880-b7d8-ef2e3e71634d")
-		)
-		(pin "5"
-			(uuid "dfabdcdd-6cd1-4658-a2b4-25638dd053d1")
-		)
-		(pin "6"
-			(uuid "d867a62c-9c62-4740-a2f7-b735d44df977")
-		)
-		(pin "2"
-			(uuid "e444db38-1c1a-48c2-aa91-e76418dfd4ef")
-		)
-		(pin "8"
-			(uuid "abed48e6-9c41-40a6-ab9d-42e46cf7bcb0")
-		)
-		(pin "4"
-			(uuid "7b50e3a2-c5ea-4ad7-939e-195078c38838")
-		)
-		(pin "1"
-			(uuid "1de71cf5-9b45-4adb-9e8f-2d2ba5e7ccaf")
-		)
-		(pin "7"
-			(uuid "92dca337-6cf1-482f-a536-8a05eb1dae77")
-		)
-		(instances
-			(project "MCU Datalogger"
-				(path "/455fe25c-2e84-4f23-ad2d-4a44fcc92110"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
-		(at 198.12 80.01 0)
+		(at 19.05 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2613,27 +2622,29 @@
 		(fields_autoplaced yes)
 		(uuid "0616a661-40de-40f6-bfd9-77d3a7982843")
 		(property "Reference" "Y2"
-			(at 198.12 72.39 0)
+			(at 22.86 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Crystal"
-			(at 198.12 74.93 0)
+			(at 22.86 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 80.01 0)
+			(at 19.05 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2644,7 +2655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 80.01 0)
+			(at 19.05 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2666,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 198.12 80.01 0)
+			(at 19.05 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +2693,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 109.22 0)
+		(at 100.33 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2693,7 +2704,7 @@
 		(fields_autoplaced yes)
 		(uuid "0692fa6b-8e89-481e-b9bf-ff29c1e609ec")
 		(property "Reference" "R2"
-			(at 128.27 107.9499 0)
+			(at 102.87 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2704,7 +2715,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 128.27 110.4899 0)
+			(at 102.87 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2715,7 +2726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.952 109.22 90)
+			(at 98.552 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 109.22 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2737,7 +2748,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 125.73 109.22 0)
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 213.36 110.49 0)
+		(at 110.49 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2775,7 +2786,7 @@
 		(fields_autoplaced yes)
 		(uuid "06acc6df-438b-43fb-8b84-20ae6a71bad0")
 		(property "Reference" "C4"
-			(at 217.17 109.2199 0)
+			(at 114.3 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,7 +2797,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 217.17 111.7599 0)
+			(at 114.3 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2797,7 +2808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.3252 114.3 0)
+			(at 111.4552 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2808,7 +2819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 110.49 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2830,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 213.36 110.49 0)
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +2857,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 109.22 0)
+		(at 90.17 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2857,7 +2868,7 @@
 		(fields_autoplaced yes)
 		(uuid "1617ef2a-f075-4c70-8fb8-79b7de38e569")
 		(property "Reference" "R1"
-			(at 119.38 107.9499 0)
+			(at 92.71 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2868,7 +2879,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 119.38 110.4899 0)
+			(at 92.71 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2879,7 +2890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.062 109.22 90)
+			(at 88.392 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2890,7 +2901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 109.22 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +2912,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 109.22 0)
+			(at 90.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,180 +2938,8 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-09-06_18-41-55:ATMEGA328P-AU")
-		(at 72.39 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16ecc6fd-6a21-483e-93ca-e166e07aae9d")
-		(property "Reference" "U4"
-			(at 130.81 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ATMEGA328P-AU"
-			(at 130.81 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TQFP32_32A_MCH"
-			(at 72.39 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "ATMEGA328P-AU"
-			(at 72.39 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "29cb113d-82c3-4b44-b3cb-5e9ccc8eaed5")
-		)
-		(pin "10"
-			(uuid "b18db2cf-acf0-45ae-89a2-1d5619d3cf9b")
-		)
-		(pin "7"
-			(uuid "4126938a-03e0-4d14-86bb-9d1ae343e9a8")
-		)
-		(pin "12"
-			(uuid "1687d680-b3b0-4df4-82ab-dfa3b9b3ac51")
-		)
-		(pin "8"
-			(uuid "58942282-afcf-464c-934f-c306cc764d42")
-		)
-		(pin "3"
-			(uuid "6840dae4-aea2-4d6f-8c5a-bf8491ae5122")
-		)
-		(pin "6"
-			(uuid "2f791038-4dde-408f-a1d2-06a7ed22e3c4")
-		)
-		(pin "2"
-			(uuid "4824221c-e371-4ae2-bad2-28dab2a2a2b3")
-		)
-		(pin "9"
-			(uuid "50e57e59-eb21-4b0e-8bad-0732b79ecba2")
-		)
-		(pin "11"
-			(uuid "51fbcbda-1526-425d-8997-98eea88ec0f4")
-		)
-		(pin "4"
-			(uuid "9d60385c-ceb4-4357-9699-ae9c6c0e4bb1")
-		)
-		(pin "1"
-			(uuid "e63b0f2a-1765-4cc6-9d03-cb233b0cd372")
-		)
-		(pin "13"
-			(uuid "e1e4697f-01f5-4209-bba8-c924539c5e26")
-		)
-		(pin "5"
-			(uuid "95cfdd7c-6198-468e-9f1e-6519598d3447")
-		)
-		(pin "16"
-			(uuid "bfcba6bf-db31-4901-84ba-d438e4a2864e")
-		)
-		(pin "15"
-			(uuid "f23e3131-5451-4dcc-b1e4-4e14ac32b08b")
-		)
-		(pin "17"
-			(uuid "4fd35b72-7649-4ec8-b6b9-2098fe5b4565")
-		)
-		(pin "18"
-			(uuid "884a26c9-0332-417f-97af-b8ddf1466bb9")
-		)
-		(pin "29"
-			(uuid "9a2d57f2-27f0-46f1-96cd-6e33aa6175c1")
-		)
-		(pin "31"
-			(uuid "202b54b9-c03b-43f3-957b-fdc27f6660dc")
-		)
-		(pin "27"
-			(uuid "4a9e33f1-3f63-4d35-8f64-e33efbf50211")
-		)
-		(pin "25"
-			(uuid "da59e1f3-ad8f-415a-8ae8-90b6ec422a64")
-		)
-		(pin "19"
-			(uuid "9a4ab68a-d7ed-44d5-8687-e002bb5e8c16")
-		)
-		(pin "26"
-			(uuid "30b64796-7ecb-4731-bf36-723d65c7b4ac")
-		)
-		(pin "20"
-			(uuid "6c98376a-bc0c-4f10-a117-edc824db3ea5")
-		)
-		(pin "23"
-			(uuid "0fc794ea-391c-4670-857b-04549b2db0f6")
-		)
-		(pin "24"
-			(uuid "13b25ac3-e46d-48f2-af0f-bfabf98f1916")
-		)
-		(pin "22"
-			(uuid "5f498db1-dbce-4ae4-bb7f-26c305038f07")
-		)
-		(pin "28"
-			(uuid "80cc927f-8c60-4fd5-87c0-a98c74eb36bc")
-		)
-		(pin "32"
-			(uuid "52ff6abb-1d13-400a-8f20-0a8e1a1df032")
-		)
-		(pin "21"
-			(uuid "3d1c7d78-97e0-4359-8b9f-8bf4d7444d7e")
-		)
-		(pin "30"
-			(uuid "40277497-ea7f-454d-a202-ab2b8974ed5a")
-		)
-		(instances
-			(project "MCU Datalogger"
-				(path "/455fe25c-2e84-4f23-ad2d-4a44fcc92110"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 107.95 109.22 0)
+		(at 100.33 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3111,7 +2950,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c24ed69-4ef7-433a-874f-5c00f6de389e")
 		(property "Reference" "R5"
-			(at 110.49 107.9499 0)
+			(at 102.87 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3122,7 +2961,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 110.49 110.4899 0)
+			(at 102.87 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3133,7 +2972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.172 109.22 90)
+			(at 98.552 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3144,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 109.22 0)
+			(at 100.33 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +2994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 109.22 0)
+			(at 100.33 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +3021,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 228.6 110.49 0)
+		(at 255.27 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3193,7 +3032,7 @@
 		(fields_autoplaced yes)
 		(uuid "252eec95-ba67-49c0-9e6f-9ba60a8f4976")
 		(property "Reference" "C5"
-			(at 232.41 108.3309 0)
+			(at 259.08 30.8609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3204,7 +3043,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 232.41 110.8709 0)
+			(at 259.08 33.4009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3215,7 +3054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.5652 114.3 0)
+			(at 256.2352 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 110.49 0)
+			(at 255.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3076,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 228.6 110.49 0)
+			(at 255.27 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3264,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 109.22 0)
+		(at 151.13 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3275,7 +3114,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e4692d8-e91b-41f7-85eb-806c28c24118")
 		(property "Reference" "C1"
-			(at 170.18 107.9499 0)
+			(at 154.94 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3286,7 +3125,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 170.18 110.4899 0)
+			(at 154.94 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3297,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.3352 113.03 0)
+			(at 152.0952 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 109.22 0)
+			(at 151.13 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +3158,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 109.22 0)
+			(at 151.13 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 109.22 0)
+		(at 149.86 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3357,29 +3196,27 @@
 		(fields_autoplaced yes)
 		(uuid "456ff628-ac8f-4edf-8a68-b7f8f6c7113b")
 		(property "Reference" "R7"
-			(at 95.25 107.9499 0)
+			(at 149.86 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 95.25 110.4899 0)
+			(at 149.86 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 109.22 90)
+			(at 149.86 78.232 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 109.22 0)
+			(at 149.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +3238,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 109.22 0)
+			(at 149.86 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +3265,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:24LC1025")
-		(at 127 137.16 0)
+		(at 33.02 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3439,7 +3276,7 @@
 		(fields_autoplaced yes)
 		(uuid "539ff529-cc85-4bf5-a8d9-01842ce15ccd")
 		(property "Reference" "U1"
-			(at 129.1433 127 0)
+			(at 35.1633 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3450,7 +3287,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 129.1433 129.54 0)
+			(at 35.1633 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3298,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 127 137.16 0)
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf"
-			(at 127 137.16 0)
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,7 +3320,7 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
-			(at 127 137.16 0)
+			(at 33.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3365,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 133.35 0)
+		(at 255.27 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3539,7 +3376,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c88c4e3-15a9-4181-b9ce-a30abf59b23b")
 		(property "Reference" "H1"
-			(at 261.62 132.0799 0)
+			(at 257.81 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3550,7 +3387,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 134.6199 0)
+			(at 257.81 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3561,7 +3398,7 @@
 			)
 		)
 		(property "Footprint" "Module:Maple_Mini"
-			(at 259.08 133.35 0)
+			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3572,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 133.35 0)
+			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3583,7 +3420,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 133.35 0)
+			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3441,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 212.09 80.01 0)
+		(at 149.86 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3615,27 +3452,29 @@
 		(fields_autoplaced yes)
 		(uuid "7cf0c19a-0163-499a-9ab2-19229879b50c")
 		(property "Reference" "Y1"
-			(at 212.09 72.39 0)
+			(at 153.67 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Crystal"
-			(at 212.09 74.93 0)
+			(at 153.67 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 80.01 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 80.01 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3496,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 212.09 80.01 0)
+			(at 149.86 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,8 +3522,204 @@
 		)
 	)
 	(symbol
+		(lib_id "DS1337S_:DS1337S_")
+		(at 62.23 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ba5c32-9514-4afc-8704-d0f51da1759c")
+		(property "Reference" "U3"
+			(at 62.23 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS1337S_"
+			(at 62.23 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I²C Serial Real-Time Clock"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-8 Maxim"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=snap"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DS1337S+"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105732&manufacturer=Analog Devices&part_name=DS1337S+&search_term=ds1337s"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+/Analog+Devices/view-part/?ref=eda"
+			(at 62.23 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "4bb85ccf-1ddd-42ec-9a28-5a99004b5c3e")
+		)
+		(pin "3"
+			(uuid "b13ed309-0a3d-4a1a-83c8-f65fc628c428")
+		)
+		(pin "4"
+			(uuid "1e619094-dead-4a8a-8e7c-233abe41353b")
+		)
+		(pin "7"
+			(uuid "23a0a92d-e6d3-4113-aa12-94c2688ae1d7")
+		)
+		(pin "5"
+			(uuid "1007ac71-b0c7-4345-b33b-5629749a67f9")
+		)
+		(pin "6"
+			(uuid "e73ae2eb-0780-48ab-a47b-b8313975b5c9")
+		)
+		(pin "2"
+			(uuid "293da420-4335-4f8e-bd0a-a42bc46560a1")
+		)
+		(pin "1"
+			(uuid "87d3074b-f56b-44c2-ad44-15a15cf5ced1")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/455fe25c-2e84-4f23-ad2d-4a44fcc92110"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 227.33 80.01 0)
+		(at 152.4 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3695,7 +3730,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e576d3b-bed2-4bb5-b8f1-d176bdbbd274")
 		(property "Reference" "D2"
-			(at 225.7425 73.66 0)
+			(at 150.8125 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3705,7 +3740,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 225.7425 76.2 0)
+			(at 150.8125 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3715,7 +3750,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
-			(at 227.33 80.01 0)
+			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 80.01 0)
+			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3772,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 227.33 80.01 0)
+			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3783,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 227.33 80.01 0)
+			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3775,7 +3810,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 110.49 0)
+		(at 135.89 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3786,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(uuid "932f2017-9fc4-4046-b9fa-bf953f297085")
 		(property "Reference" "C3"
-			(at 201.93 109.2199 0)
+			(at 139.7 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3797,7 +3832,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 201.93 111.7599 0)
+			(at 139.7 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,7 +3843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.0852 114.3 0)
+			(at 136.8552 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 110.49 0)
+			(at 135.89 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3865,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 110.49 0)
+			(at 135.89 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +3892,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 158.75 0)
+		(at 255.27 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3868,7 +3903,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad84ab63-ff03-4991-a00a-d245e3900694")
 		(property "Reference" "H4"
-			(at 261.62 157.4799 0)
+			(at 257.81 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3879,7 +3914,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 160.0199 0)
+			(at 257.81 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3890,7 +3925,7 @@
 			)
 		)
 		(property "Footprint" "Module:Maple_Mini"
-			(at 259.08 158.75 0)
+			(at 255.27 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 158.75 0)
+			(at 255.27 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +3947,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 158.75 0)
+			(at 255.27 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,7 +3968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 109.22 0)
+		(at 240.03 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3944,7 +3979,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3e50feb-d55b-4270-b7d3-59f0de4be833")
 		(property "Reference" "R3"
-			(at 138.43 107.9499 0)
+			(at 242.57 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +3990,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 138.43 110.4899 0)
+			(at 242.57 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,7 +4001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.112 109.22 90)
+			(at 238.252 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 109.22 0)
+			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +4023,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 109.22 0)
+			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4050,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 245.11 80.01 0)
+		(at 238.76 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4026,27 +4061,29 @@
 		(fields_autoplaced yes)
 		(uuid "cdacffce-8c57-473f-b797-63b27237a6ce")
 		(property "Reference" "D1"
-			(at 243.5225 73.66 0)
+			(at 242.57 42.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 243.5225 76.2 0)
+			(at 242.57 44.7674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
-			(at 245.11 80.01 0)
+			(at 238.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4057,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 80.01 0)
+			(at 238.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4105,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 245.11 80.01 0)
+			(at 238.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +4116,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 245.11 80.01 0)
+			(at 238.76 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 110.49 0)
+		(at 135.89 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4117,7 +4154,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0870402-b676-4276-98cd-bf432c8cc5c0")
 		(property "Reference" "C2"
-			(at 185.4876 109.2199 0)
+			(at 139.7676 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4128,7 +4165,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 185.4876 111.7599 0)
+			(at 139.7676 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4139,7 +4176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.5752 114.3 0)
+			(at 136.8552 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4150,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 110.49 0)
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4198,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 110.49 0)
+			(at 135.89 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4225,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 109.22 0)
+		(at 134.62 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4199,29 +4236,27 @@
 		(fields_autoplaced yes)
 		(uuid "d2680abe-a715-415e-aeb6-5165eca64d40")
 		(property "Reference" "R4"
-			(at 148.59 107.9499 0)
+			(at 134.62 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 148.59 110.4899 0)
+			(at 134.62 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 144.272 109.22 90)
+			(at 134.62 48.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +4267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 109.22 0)
+			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4278,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 109.22 0)
+			(at 134.62 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,8 +4304,324 @@
 		)
 	)
 	(symbol
+		(lib_id "ATMEGA328P-AU:ATMEGA328P-AU")
+		(at 185.42 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d967e53f-4662-4729-b6de-3ef5b223d83d")
+		(property "Reference" "U4"
+			(at 185.42 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATMEGA328P-AU"
+			(at 185.42 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATMEGA328P-AU:QFP80P900X900X120-32N"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 32KB (16K x 16) FLASH 32-TQFP (7x7)"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.20mm"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TQFP-32 Microchip"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=eda"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "8271A"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ATMEGA328P-AU/Microchip+Technology/view-part/?ref=snap"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ATMEGA328P-AU"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=44280&manufacturer=Microchip&part_name=ATMEGA328P-AU&search_term=atmega328p-au"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Microchip"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "8"
+			(uuid "a3706d4d-6573-4f12-8e45-b17486eda597")
+		)
+		(pin "10"
+			(uuid "bce1697c-7170-41dc-a1e8-406b32a07701")
+		)
+		(pin "9"
+			(uuid "fb51dcdd-2eab-4bcb-b04c-361f8bafb1e6")
+		)
+		(pin "5"
+			(uuid "02ec1a9b-50b3-4248-a099-6c9f6b65897a")
+		)
+		(pin "7"
+			(uuid "afa9bee7-859c-4769-a43a-826c70495d69")
+		)
+		(pin "12"
+			(uuid "7740b14c-ea69-4ea6-afa5-0d294af4f249")
+		)
+		(pin "1"
+			(uuid "8ef94d95-c1e2-41f5-aea4-2a609a474036")
+		)
+		(pin "11"
+			(uuid "1ab87abf-e389-4bcc-962e-98a20dcad631")
+		)
+		(pin "2"
+			(uuid "d9b988fc-04d9-47d9-b8ff-87d0268604a5")
+		)
+		(pin "4"
+			(uuid "94e69fd1-2eb1-493c-8769-c7f2a2aa1d0e")
+		)
+		(pin "6"
+			(uuid "a9d0d28b-bb39-413f-831d-ce31b6a0658c")
+		)
+		(pin "3"
+			(uuid "25c664ec-1d58-4e5c-9834-68319499933c")
+		)
+		(pin "14"
+			(uuid "6f03fb30-4fbd-4a91-9127-e9a3955fc4ea")
+		)
+		(pin "20"
+			(uuid "a27b7bd4-acaf-42ea-ae70-798e97ff30bb")
+		)
+		(pin "13"
+			(uuid "ceed37aa-dfd8-4863-b5ea-1d6cb6808c5e")
+		)
+		(pin "17"
+			(uuid "3bbdce7d-a7d6-49df-a644-d85e7c064473")
+		)
+		(pin "15"
+			(uuid "88bb7be0-5d72-4d60-bd5c-04c18ac091e8")
+		)
+		(pin "19"
+			(uuid "c6e279e7-5987-4a6c-b3d6-51a832a85992")
+		)
+		(pin "18"
+			(uuid "3021fcfd-8e45-4482-bdf4-4b2ec2970e93")
+		)
+		(pin "16"
+			(uuid "caeb3f9e-4491-4c22-a935-9e106ec451bc")
+		)
+		(pin "26"
+			(uuid "67dcc3fa-c782-41a4-91d1-0ef80f667987")
+		)
+		(pin "32"
+			(uuid "591ae865-e8db-4faa-b23b-d015b4ceb060")
+		)
+		(pin "30"
+			(uuid "4bd00f96-b725-440b-9f6a-656a459899bb")
+		)
+		(pin "27"
+			(uuid "664a8823-c926-481f-9361-9cd9c51124a5")
+		)
+		(pin "25"
+			(uuid "b345aeb0-56ac-4c82-a4f6-b87bd91b0d28")
+		)
+		(pin "21"
+			(uuid "14087fd9-59ee-4f82-ae85-27f1a6113297")
+		)
+		(pin "22"
+			(uuid "176aa0fb-d29f-43b7-9373-e0089bb427a1")
+		)
+		(pin "23"
+			(uuid "7b927a70-f11e-4b29-a4dc-c984c12145be")
+		)
+		(pin "24"
+			(uuid "55683bf4-2fcb-45a8-9d14-d0a9d0eb8d14")
+		)
+		(pin "29"
+			(uuid "b1e95ec0-7d54-455a-a0b7-2ab0fc068cf4")
+		)
+		(pin "28"
+			(uuid "7b72bad5-91e3-4ea0-a860-d2890887ef56")
+		)
+		(pin "31"
+			(uuid "ac32b84b-da25-4e97-af2e-5b6a702823db")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/455fe25c-2e84-4f23-ad2d-4a44fcc92110"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 142.24 0)
+		(at 255.27 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4281,7 +4632,7 @@
 		(fields_autoplaced yes)
 		(uuid "dab9fb6b-9d5c-4f46-8c3b-a7dbdd037946")
 		(property "Reference" "H2"
-			(at 261.62 140.9699 0)
+			(at 257.81 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4292,7 +4643,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 143.5099 0)
+			(at 257.81 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4303,7 +4654,7 @@
 			)
 		)
 		(property "Footprint" "Module:Maple_Mini"
-			(at 259.08 142.24 0)
+			(at 255.27 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4314,7 +4665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 142.24 0)
+			(at 255.27 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4325,7 +4676,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 142.24 0)
+			(at 255.27 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4346,7 +4697,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 259.08 149.86 0)
+		(at 255.27 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4357,7 +4708,7 @@
 		(fields_autoplaced yes)
 		(uuid "e94d8882-6d6e-4b74-932e-82e15c334e96")
 		(property "Reference" "H3"
-			(at 261.62 148.5899 0)
+			(at 257.81 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4368,7 +4719,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 261.62 151.1299 0)
+			(at 257.81 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4379,7 +4730,7 @@
 			)
 		)
 		(property "Footprint" "Module:Maple_Mini"
-			(at 259.08 149.86 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 149.86 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4752,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 259.08 149.86 0)
+			(at 255.27 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,7 +4773,7 @@
 	)
 	(symbol
 		(lib_id "Memory_EEPROM:24LC1025")
-		(at 162.56 137.16 0)
+		(at 68.58 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4433,7 +4784,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7dfbe1b-9453-4569-b560-3d3132270ec7")
 		(property "Reference" "U2"
-			(at 164.7033 127 0)
+			(at 70.7233 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4444,7 +4795,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 164.7033 129.54 0)
+			(at 70.7233 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4455,7 +4806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 137.16 0)
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4817,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf"
-			(at 162.56 137.16 0)
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +4828,7 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1024Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"
-			(at 162.56 137.16 0)
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4873,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 109.22 0)
+		(at 92.71 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4533,7 +4884,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd5ee122-d973-4d8a-acc1-951a0bc2ddaf")
 		(property "Reference" "R6"
-			(at 102.87 107.9499 0)
+			(at 95.25 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4544,7 +4895,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 102.87 110.4899 0)
+			(at 95.25 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4555,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.552 109.22 90)
+			(at 90.932 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 109.22 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,7 +4928,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 109.22 0)
+			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +4955,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 257.81 81.28 0)
+		(at 271.78 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4615,7 +4966,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd905204-0d27-4d3d-bbe7-35226299c34e")
 		(property "Reference" "BT1"
-			(at 261.62 79.4384 0)
+			(at 275.59 31.1784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4626,7 +4977,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 261.62 81.9784 0)
+			(at 275.59 33.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4637,7 +4988,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm"
-			(at 257.81 79.756 90)
+			(at 271.78 31.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 79.756 90)
+			(at 271.78 31.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +5010,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 257.81 81.28 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +5021,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 257.81 81.28 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +5032,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 257.81 81.28 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +5043,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 257.81 81.28 0)
+			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,8 +5069,8 @@
 		)
 	)
 	(sheet
-		(at 189.23 127)
-		(size 53.34 30.48)
+		(at 166.37 125.73)
+		(size 45.72 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4734,7 +5085,7 @@
 		)
 		(uuid "5572c0ca-da16-4cc5-93f1-4f24fcba599c")
 		(property "Sheetname" "Connectors"
-			(at 189.23 126.2884 0)
+			(at 166.37 125.0184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4745,7 +5096,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 189.23 158.0646 0)
+			(at 166.37 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
