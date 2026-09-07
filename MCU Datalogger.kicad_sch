@@ -4286,6 +4286,16 @@
 		)
 		(uuid "859572fe-93c4-4c1e-a967-e699cabd89c6")
 	)
+	(label "VCC"
+		(at 264.16 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "861331c6-0849-4e68-b274-692329f2eab2")
+	)
 	(label "SCK"
 		(at 166.37 78.74 0)
 		(effects
