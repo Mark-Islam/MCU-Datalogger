@@ -8,7 +8,7 @@
 		(title "${project_name}")
 		(date "2026-09-06")
 		(rev "1")
-		(company "N/A")
+		(company "Mark Islam")
 	)
 	(lib_symbols
 		(symbol "ATMEGA328P-AU:ATMEGA328P-AU"
